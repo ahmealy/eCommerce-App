@@ -1,0 +1,11 @@
+2021-11-04T22:31:21.754+0200 ERROR [CREATE USER] [FAIL] for user: Ahmed, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-04T22:31:21.844+0200 ERROR [CREATE USER] [FAIL] for user: Ahmed, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-04T22:31:21.847+0200 ERROR [CREATE USER] [FAIL] for user: test, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-04T22:31:21.867+0200 INFO [CREATE USER] [SUCCESS] for user: Ahmed
+2021-11-04T22:31:21.899+0200 INFO [ADD TO CART] [SUCCESS] for user: Ahmed
+2021-11-04T22:31:21.901+0200 ERROR [REMOVE FROM CART] [FAIL] for user: test, REASON: User not found!
+2021-11-04T22:31:21.903+0200 ERROR [REMOVE FROM CART] [FAIL] for user: treka, REASON: User not found!
+2021-11-04T22:31:21.992+0200 ERROR [SUBMIT ORDER] [FAIL] for user: someone, REASON: User not found!
+2021-11-04T22:31:21.994+0200 ERROR [ORDER HISTORY] [FAIL] for user: someone, REASON: User not found!
+2021-11-04T22:31:21.997+0200 INFO [ORDER HISTORY] [SUCCESS] for user: test
+2021-11-04T22:31:22.000+0200 INFO [SUBMIT ORDER] [SUCCESS] for user: test
