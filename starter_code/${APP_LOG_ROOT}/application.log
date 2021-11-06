@@ -9,3 +9,14 @@
 2021-11-04T22:31:21.994+0200 ERROR [ORDER HISTORY] [FAIL] for user: someone, REASON: User not found!
 2021-11-04T22:31:21.997+0200 INFO [ORDER HISTORY] [SUCCESS] for user: test
 2021-11-04T22:31:22.000+0200 INFO [SUBMIT ORDER] [SUCCESS] for user: test
+2021-11-06T12:25:28.271+0200 ERROR [CREATE USER] [FAIL] for user: Ahmed, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-06T12:25:28.380+0200 ERROR [CREATE USER] [FAIL] for user: Ahmed, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-06T12:25:28.386+0200 ERROR [CREATE USER] [FAIL] for user: test, REASON: Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2021-11-06T12:25:28.404+0200 INFO [CREATE USER] [SUCCESS] for user: Ahmed
+2021-11-06T12:25:28.461+0200 INFO [ADD TO CART] [SUCCESS] for user: Ahmed
+2021-11-06T12:25:28.463+0200 ERROR [REMOVE FROM CART] [FAIL] for user: test, REASON: User not found!
+2021-11-06T12:25:28.467+0200 ERROR [REMOVE FROM CART] [FAIL] for user: treka, REASON: User not found!
+2021-11-06T12:25:28.587+0200 ERROR [SUBMIT ORDER] [FAIL] for user: someone, REASON: User not found!
+2021-11-06T12:25:28.590+0200 ERROR [ORDER HISTORY] [FAIL] for user: someone, REASON: User not found!
+2021-11-06T12:25:28.593+0200 INFO [ORDER HISTORY] [SUCCESS] for user: test
+2021-11-06T12:25:28.596+0200 INFO [SUBMIT ORDER] [SUCCESS] for user: test
